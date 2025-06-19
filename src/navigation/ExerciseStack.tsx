@@ -1,8 +1,8 @@
 // src/navigation/ExerciseStack.tsx
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import ExerciseScreen from "../screens/ExerciseScreen";
-import ExerciseDetailScreen from "../screens/ExerciseDetailScreen";
+import ExerciseScreen from "../screens/ExerciseFlow/ExerciseScreen";
+import ExerciseDetailScreen from "../screens/ExerciseFlow/ExerciseDetailScreen";
 
 const Stack = createNativeStackNavigator();
 
