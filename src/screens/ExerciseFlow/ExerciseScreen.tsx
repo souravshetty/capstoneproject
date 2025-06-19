@@ -1,7 +1,7 @@
 // src/screens/ExerciseScreen.tsx
 import React from "react";
 import { ScrollView,View } from "react-native";
-import ExerciseCard from "../components/ExerciseCard";
+import ExerciseCard from "../../components/ExerciseCard";
 
 const ExerciseScreen = ({ navigation }: any) => {
 	return (
@@ -10,7 +10,7 @@ const ExerciseScreen = ({ navigation }: any) => {
 				<ExerciseCard
 					title="Shoulder"
 					subtitle="Mobility & Strength"
-					image={require("../../assets/shoulder.png")}
+					image={require("../../../assets/shoulder.png")}
 					onPress={() =>
 						navigation.navigate("ExerciseDetail", { category: "shoulder" })
 					}
@@ -19,7 +19,7 @@ const ExerciseScreen = ({ navigation }: any) => {
 			<ExerciseCard
 				title="Biceps"
 				subtitle="Tone and Build"
-				image={require("../../assets/shoulder.png")}
+				image={require("../../../assets/shoulder.png")}
 				onPress={() =>
 					navigation.navigate("ExerciseDetail", { category: "biceps" })
 				}
@@ -27,7 +27,7 @@ const ExerciseScreen = ({ navigation }: any) => {
 			<ExerciseCard
 				title="Stretching"
 				subtitle="Flexibility"
-				image={require("../../assets/shoulder.png")}
+				image={require("../../../assets/shoulder.png")}
 				onPress={() =>
 					navigation.navigate("ExerciseDetail", { category: "stretching" })
 				}
