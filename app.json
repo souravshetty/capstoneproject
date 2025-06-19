@@ -19,16 +19,15 @@
       }
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "permissions": [
-        "CAMERA"
-      ],
-      "package": "com.capstone1234.facedetection"
-    },
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"edgeToEdgeEnabled": true,
+			"permissions": ["CAMERA"],
+			"package": "com.capstone1234.facedetection",
+			"minSdkVersion": 26
+		},
     "web": {
       "favicon": "./assets/favicon.png"
     },

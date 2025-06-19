@@ -81,14 +81,6 @@ def enableProguardInReleaseBuilds = (findProperty('android.enableProguardInRelea
  */
 def jscFlavor = 'io.github.react-native-community:jsc-android:2026004.+'
 
-ext {
-    minSdkVersion = 26       // ✅ Change this to 26
-    compileSdkVersion = 35
-    targetSdkVersion = 35
-    buildToolsVersion = "35.0.0"
-    ndkVersion = "27.1.12297006"
-}
-
 android {
     ndkVersion rootProject.ext.ndkVersion
 
@@ -98,7 +90,7 @@ android {
     namespace 'com.capstone1234.facedetection'
     defaultConfig {
         applicationId 'com.capstone1234.facedetection'
-        minSdkVersion rootProject.ext.minSdkVersion
+        minSdkVersion 26
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0.0"
